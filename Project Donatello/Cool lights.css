@@ -1,0 +1,29 @@
+body{
+	margin:400;
+	padding: 0;
+	font-family: "Time New Roman";
+	background: linear-gradient(90deg, #999950, #999966);
+    background-size: 400%;
+    animation: bganimation 5s infinite;
+}
+a{
+	color: text;
+	text-align: center;
+	text-transform: uppercase;
+}
+@keyframes bganimation {
+	0%{
+		background-position: 100% 50%;
+}
+
+50%{
+	background-position: 0% 50%;
+}
+
+p{
+	font-family: "Time New Roman";
+}
+h1{
+	text-transform: uppercase;
+	margin: 400;
+}
